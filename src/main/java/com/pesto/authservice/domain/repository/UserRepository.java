@@ -1,4 +1,4 @@
-package com.pesto.authservice.domain.entity.repository;
+package com.pesto.authservice.domain.repository;
 
 import com.pesto.authservice.domain.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;

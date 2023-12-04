@@ -2,8 +2,8 @@ package com.pesto.authservice.service;
 
 import com.pesto.authservice.domain.entity.Order;
 import com.pesto.authservice.domain.entity.User;
-import com.pesto.authservice.domain.entity.repository.OrderRepository;
-import com.pesto.authservice.domain.entity.repository.UserRepository;
+import com.pesto.authservice.domain.repository.OrderRepository;
+import com.pesto.authservice.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -30,4 +30,3 @@ public class OrderAuthorizationService {
         return orderRepository.findByUserId(user.getId());
     }
 }
-

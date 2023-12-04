@@ -1,7 +1,7 @@
 package com.pesto.authservice.service;
 
 import com.pesto.authservice.domain.entity.User;
-import com.pesto.authservice.domain.entity.repository.UserRepository;
+import com.pesto.authservice.domain.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -3,10 +3,9 @@ package com.pesto.authservice.service;
 import com.pesto.authservice.domain.entity.Order;
 import com.pesto.authservice.domain.entity.OrderProduct;
 import com.pesto.authservice.domain.entity.User;
-import com.pesto.authservice.domain.entity.repository.OrderRepository;
-import com.pesto.authservice.domain.entity.repository.UserRepository;
+import com.pesto.authservice.domain.repository.OrderRepository;
+import com.pesto.authservice.domain.repository.UserRepository;
 import com.pesto.authservice.service.messaging.OrderMessage;
-import org.aspectj.weaver.ast.Or;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
